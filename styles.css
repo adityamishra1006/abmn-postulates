@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Prompt", sans-serif;
+    scroll-behavior: smooth;
+}
+
+#wrapper{
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+.nav-bar{
+    overflow: hidden;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+  width: 180px;
+}
+
+.left-nav{
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+}
+
+.right-nav{
+  display: flex;
+  gap: 2rem;
+  padding: 0 4rem;
+  margin-right: -25rem;
+}
+
+.right-nav a{
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.right-nav a:hover{
+  transition: all 0.7s;
+  font-weight:500;
+}
+
+.mobile-menu{
+  margin-right: 1rem;
+}
+@media screen and (max-width: 768px) {
+  .container {
+      width: 100%;
+  }
+
+  .right-nav {
+      display: none; /* Hide by default on small screens */
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 1rem;
+      padding: 1rem;
+      background-color: #f4f4f4;
+  }
+
+  .right-nav.show {
+      display: flex; /* Show when the mobile menu is clicked */
+  }
+
+  .right-nav a {
+      font-size: 16px;
+  }
+
+  .mobile-menu {
+      display: block;
+      cursor: pointer;
+  }
+
+  .mobile-menu span {
+      display: block;
+      width: 30px;
+      height: 3px;
+      background-color: #333;
+      margin: 6px 0;
+  }
+}
+
+
