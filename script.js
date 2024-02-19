@@ -7,7 +7,7 @@ var typeData = new Typed(".role", {
     strings: [
       "Empower yourself with tech",
       "Get In Demand Skills",
-      "Upskill yourself with new technologies",
+      "Upskill yourself with new tech",
       "Gain Practical Training",
     ],
     loop: true,
