@@ -8,6 +8,10 @@
     scroll-behavior: smooth;
 }
 
+:root{
+  --bgBlue:#118098;
+}
+
 #wrapper{
     height: 100vh;
     overflow-x: hidden;
@@ -131,14 +135,124 @@
 
 .girl{
   position: relative;
-  right: 8rem;
-  bottom: -8rem;
+  right: 6rem;
+  bottom: -3rem;
 }
 
 .boy{
   position: relative;
-  top: -23rem;
-  right: -10rem;
+  top: -29rem;
+  right: -11rem;
+}
+
+/* Courses */
+
+.course-section{
+  background-color:  rgb(231, 231, 231);
+  margin-left: -167px;
+  margin-right: -167px;
+}
+
+.page-header{
+  color: #118098;
+  font-size: 90px;
+  text-align: center;
+  padding-top:30px ;
+}
+
+.course-container{
+  max-width: 100vh;
+  margin: 0 auto;
+  padding: 3rem 0;
+
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+}
+
+.course-card{
+  width: 50%;
+  height: 450px;
+  position: relative;
+  box-shadow: 0px 0px 40px #1f1f1f;
+  margin: 11px -250px;
+  border-radius: 20%;
+}
+
+
+
+.content{
+  color: #0fafd2;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  margin: 13px;
+  padding: 9px;
+}
+
+.subcontent{
+  color: #0a2024;
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+  margin: 13px;
+  padding: 9px;
+}
+
+.data-science{
+  border-radius: 50%;
+  display: flex;
+  position: relative;
+  top: 22px;
+  left: 115px;
+}
+
+
+/* Button */
+.btn-grp{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  bottom: 18px;
+}
+
+.btn-blu {
+  background-color: var(--bgBlue);
+  width: fit-content;
+  color:white;
+  padding: 0.8rem 2.3rem;
+  box-shadow: 5px 5px 7px 0px #0000003f;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.5s;
+  font-weight: 500;
+  border: solid 3px transparent;
+  position: relative;
+  z-index: 1;
+}
+
+.btn-blu::before {
+  content: "";
+  position: absolute;
+  background-color:aliceblue;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: all 0.8s;
+}
+
+.btn-blu:hover::before {
+  transform: scaleX(1);
+}
+
+.btn-blu:hover {
+  border: solid 3px var(--bgOrange);
+  color: black;
+  border-color: black;
 }
 
 
@@ -205,4 +319,6 @@
   .hero-section-description{
     width: 100%;
   }
+
+  
 }
