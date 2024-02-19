@@ -312,6 +312,8 @@
   .mobile-menu {
       display: block;
       cursor: pointer;
+      margin-right: -20rem;
+    margin-top: -53px;
   }
 
   .mobile-menu span {
@@ -350,7 +352,7 @@
 
   .nav-bar {
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
   }
   
   .right-nav {
@@ -358,6 +360,15 @@
     align-items: center;
     margin-right: 0;
   }
+
+  .boy{
+    width: 0%;
+    /* padding-top: 15rem; */
+  }
+  .girl{
+    width:0%;
+  }
+  
   
   /* Hero Section */
   .hero-section {
@@ -374,7 +385,8 @@
   }
 
   .hero-section-right{
-    width: 0;
+    width: 100%;
+    padding-top: 3rem;
   }
   
   /* Courses */
