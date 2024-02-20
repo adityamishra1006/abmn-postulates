@@ -19,7 +19,7 @@
                     <a href="#home">Home</a>
                     <a href="#courses">Courses</a>
                     <a href="#trainers">Services</a>
-                    <a href="#about">About Us</a>
+                    <a href="#aboutus">About Us</a>
                     <a href="#contact">Contact Us</a>
                 </div>
                 <div class="mobile-menu" onclick="toggleMenu()">
@@ -30,7 +30,7 @@
             </div>
 
             <!-- Hero Section -->
-            <div class="hero-section">
+            <div id="hero" class="hero-section">
                 <!-- left -->
                 <div class="hero-section-left">
                     <div class="hero-section-heading">
@@ -84,7 +84,7 @@
                             
                         </div>
                     </div>
-                    <div class="btn-grp">
+                    <div class="btn-grp" id="contactus">
                         <button class="btn-blu btn-course"><a href="#contact">Contact Us</a></button>
                     </div>
                 </div>
@@ -113,7 +113,7 @@
                             
                         </div>
                     </div>
-                    <div class="btn-grp">
+                    <div class="btn-grp" id="contactus">
                         <button class="btn-blu btn-course"><a href="#contact">Contact Us</a></button>
                     </div>
                 </div>
@@ -143,7 +143,7 @@
                             
                         </div>
                     </div>
-                    <div class="btn-grp">
+                    <div class="btn-grp" id="contactus">
                         <button class="btn-blu btn-course"><a href="#contact">Contact Us</a></button>
                     </div>
                 </div>
@@ -153,6 +153,83 @@
                     
             </div>
         </div> 
+
+        <div id="aboutus" class="about-us-container aboutus">
+            <div class="about-container-left">
+                <h2 class="about-heading">
+                    About us
+                </h2>
+                <div class="about-subheading">
+                    <p>
+                        Welcome to ABMN Postulates, where passion meets expertise! Established with a vision to empower individuals through top-notch technical education, ABMN Postulates stands as a beacon of innovation and learning.
+                    </p>
+                    <br>
+                    <p>
+                        At ABMN Postulates, our mission is to bridge the gap between ambition and achievement. We are dedicated to providing hands-on, industry-relevant training that prepares individuals for success in the dynamic world of technology. 
+                    </p>
+                    <br>
+                    <p>Our commitment extends beyond imparting knowledge; we aim to cultivate a culture of continuous learning, fostering the skills essential for personal and professional growth.</p>
+                </div>
+            </div>
+            <div class="about-container-right">
+                <img src="./Institute/1.png" alt="" class="about-img" id="ins1">
+                <img src="./Institute/2.png" alt="" class="about-img" id="ins2">
+                <img src="./Institute/3.png" alt="" class="about-img" id="ins3">
+                <img src="./Institute/4.png" alt="" class="about-img" id="ins4">
+            </div>
+        </div>
+
+        <div id="contact" class="contactus-form-container">
+            <div class="container">
+                <h1 class="contactus-heading">Contact Us</h1>
+                <h3 class="contactus-subheading">If you have any further questions or need additional assistance, feel free to contact us. We're here to help!</h3>
+
+
+                <div class="contact-left-container">
+                    <h3 class="contactdetails" id="email">Email: </h3>
+                    <p id="contact-email"><a href="mailto:abmnpostulates@gmail.com">abmnpostulates@gmail.com</a></p>
+
+                    <h3 class="contactdetails" id="number">Call us:</h3>
+                    <p id="contact-number"><a href="tel:+91xxxxxxxxxx">+91 xxxxxxxxxx</a></p>
+
+                    <h3 class="contactdetails" id="address">Address</h3>
+                    <p id="address-ans">Office Address</p>
+                </div>
+
+
+                <div class="contact-right-container">
+                    <div class="contactus-form-container map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d770.3372455250365!2d77.39140502280662!3d23.302616228843913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c6917b9563797%3A0x33dc73acb14af1d2!2sNawwtea!5e0!3m2!1sen!2sin!4v1708440477088!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <div class="footer-wrapper">
+                    <div class="footer-faded-text">ABMN Postulates</div>
+    
+                    <div class="link-wrapper">
+                        <div>
+                            <a href="#hero">Home</a>
+                        </div>
+                        <div>
+                            <a href="#courses">Courses</a>
+                        </div>
+                        <div>
+                            <a href="#aboutus">About Us</a>
+                        </div>
+                        <div>
+                            <a href="#contact">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
