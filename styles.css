@@ -402,3 +402,32 @@
     width: 100%;
   }
 }
+/* Why Abmn postulates */
+.whyabmn{
+  background-color:  #118098;
+  width: 100%;
+  height:25rem;
+  color: #f4f4f4;
+  font-weight: 300;
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two columns: 1fr for the cards, 1fr for the image */
+  /* gap: 20px; */
+}
+.flex-container{
+  display: flex;
+  gap:2rem;
+  align-items:center;
+}
+#whyabmn-question{
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 300;
+}
+.why-card{
+  width:25rem;
+  
+}
+.whyabmn img{
+  max-width: 100%;
+  height: auto;
+} 
