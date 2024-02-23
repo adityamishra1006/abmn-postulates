@@ -10,6 +10,7 @@
 
 :root{
   --bgBlue:#118098;
+  --bgPink:#b64081;
 }
 
 #wrapper{
@@ -94,7 +95,7 @@
 .hero-section-heading{
   font-size: 30px;
   font-weight: 500;
-  color: #118098;
+  color: var(--bgPink);
   gap: 2rem;
 }
 
@@ -104,7 +105,7 @@
 }
 
 .role{
-  color: #118098;
+  color: var(--bgPink);
   font-weight: 600;
   font-size: 35px;
 }
@@ -153,7 +154,7 @@
 }
 
 .page-header {
-  color: #118098;
+  color: var(--bgBlue);;
   font-size: 50px; 
   text-align: center;
   padding-top: 70px;
@@ -242,7 +243,7 @@
 }
 
 .btn-blu {
-  background-color: var(--bgBlue);
+  background-color: var(--bgBlue);;
   width: fit-content;
   color:white;
   padding: 0.8rem 2.3rem;
@@ -275,7 +276,7 @@
 }
 
 .btn-blu:hover {
-  border: solid 3px var(--bgBlue);
+  border: solid 3px var(--bgPink);;
   color: black;
   border-color: black;
 }
@@ -293,7 +294,7 @@
 }
 
 .about-heading{
-  color: var(--bgBlue);
+  color: var(--bgBlue);;
   font-size: 50px;
   font-style: bold;
   line-height: 50px;
@@ -353,7 +354,7 @@
   bottom: 50px;
 }
 .why-heading{
-  color: var(--bgBlue);
+  color: var(--bgBlue);;
   font-weight: 600;
   font-size: 4rem;
   width: 100%;
