@@ -499,7 +499,16 @@ hr{
   bottom: 75px; 
 }
 
+.name3{
 
+  position: relative;
+    left: -13px;
+
+}
+.position3{
+  left: -57px;
+  position: relative;
+}
 
 
 .contactus-heading{
