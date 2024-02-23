@@ -149,9 +149,6 @@
 /* Courses */
 .course-section {
   background-color: rgb(231, 231, 231);
-  /* margin-left: -20px; 
-  margin-right: -20px; */
-  /* padding: 20px 0;  */
   width: 100%;
 }
 
@@ -278,7 +275,7 @@
 }
 
 .btn-blu:hover {
-  border: solid 3px var(--bgOrange);
+  border: solid 3px var(--bgBlue);
   color: black;
   border-color: black;
 }
@@ -397,10 +394,12 @@
 
 /* Team Details */
 
-
+hr{
+  color: #0a2024;
+}
 .our-team-container{
   width: 100%;
-  height: 900px;
+  height: 800px;
   justify-content: center;
 }
 .team-heading{
