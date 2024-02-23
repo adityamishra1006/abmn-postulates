@@ -345,9 +345,82 @@
   bottom: 150px;
 }
 
+
+/* Why Abmn postulates */
+
+.why-abmn{
+  display: flex;
+  position: relative;
+  background-color:rgb(231,231,231); 
+  height: 450px;
+  bottom: 50px;
+}
+.why-heading{
+  color: var(--bgBlue);
+  font-weight: 600;
+  font-size: 4rem;
+  width: 100%;
+  position: relative;
+  top: 4rem;
+  left: 2rem;
+}
+.whole-content-border-box{
+
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  top: -10px;
+  gap: 30px;
+
+}
+.why-content{
+  color: #343d68aa;
+  font-weight: 450;
+
+}
+.why-img{
+
+  width: 50px;
+
+
+}
+.why-subheading{
+  color: #1eaac9;
+  font-size: 20px;
+  font-weight: 500;
+
+}
+.why-content{
+
+}
+
+/* Our Team */
+.our-tem-container{
+
+}
+.our-team-heading{
+
+}
+.team-content{
+
+}
+.team-image{
+
+}
+.name-details{
+
+}
+#team1{
+  
+}
+/* Contact */
+
 .contactus-form-container{
   width: 100%;
   background-color: rgb(231,231,231);
+  position: relative;
+  top: 2rem;
 
 }
 
@@ -364,7 +437,7 @@
 }
 
 .contactus-form-container{
-  margin-top:25px;
+  margin-top:-90px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -425,7 +498,7 @@
   width: 50%;
   position: relative;
   left: 500px;
-  bottom: 190px;
+  bottom: 75px;
 }
 
 .contactdetails{
@@ -527,6 +600,7 @@ footer{
   gap: 1rem;
 
 }
+
 
 
 
