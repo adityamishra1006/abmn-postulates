@@ -260,7 +260,7 @@
 .btn-blu::before {
   content: "";
   position: absolute;
-  background-color:aliceblue;
+  background-color:#1f1f1faa;
   top: 0;
   left: 0;
   right: 0;
@@ -389,9 +389,7 @@
   font-weight: 500;
 
 }
-.why-content{
 
-}
 
 /* Team Details */
 
@@ -450,10 +448,6 @@ hr{
   position: relative;
   top: -57rem;
   left: 70rem;
-}
-
-.team-image{
-  
 }
 .madam{
   width: 200px;
