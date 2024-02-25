@@ -288,7 +288,7 @@
     position: relative;
     background-color: rgb(231, 231, 231);
     height: 60rem;
-    bottom: 160px;
+    bottom: 52px;
     flex-direction: column;
   }
 
@@ -357,7 +357,7 @@
   }
   
   .contactus-form-container{
-      margin-top:-105px;
+      margin-top:-36px;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -464,7 +464,7 @@
     height: 800px;
     justify-content: center;
     position: relative;
-    bottom: 160px;
+    bottom: 53px;
   }
 
   .team-heading {
