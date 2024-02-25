@@ -306,9 +306,8 @@
     position: relative;
     justify-content: center;
     align-items: center;
-    top: -10px;
-    gap: 30px;
-    top: 90px;
+    top: 90px; /* Adjust this value as needed */
+    gap: 20px;
   }
 
   .why-content {
@@ -425,9 +424,9 @@
   }
 
   .footer-faded-text {
-    position: absolute;
-    left: 0;
-    bottom: 0;
+    position: relative;
+    left: -50px;
+    bottom:60px;
     color: rgb(231, 231, 231);
     user-select: none;
     font-size: 3rem;
@@ -437,9 +436,9 @@
     display: flex;
     gap: 1.2rem;
     position: relative;
-    bottom: 80px;
+    top: -240px;
     flex-direction: column;
-    left: 110px;
+    left: 130px;
   }
 
   .link-wrapper div a {
