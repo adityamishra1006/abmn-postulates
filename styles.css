@@ -537,6 +537,13 @@ hr{
   top: -5px;
 }
 
+#copyright{
+  position: relative;
+    right: -44em;
+    bottom: -5rem;
+    color: aliceblue;
+    font-weight: 500;
+}
 
 
 
