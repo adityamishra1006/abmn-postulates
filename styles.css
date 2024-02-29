@@ -402,6 +402,7 @@ hr{
   width: 100%;
   height: 800px;
   justify-content: center;
+  /* display: flex; */
 }
 .team-heading{
   font-size: 4rem;
@@ -409,6 +410,13 @@ hr{
   position: relative;
   font-weight: 500;
   left: 40%;
+}
+
+.upper-column{
+
+}
+.lower-column{
+
 }
 
 .team-card{
