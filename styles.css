@@ -440,6 +440,7 @@ hr{
   width: 100%;
   height: 1000px;
   justify-content: center;
+  /* display: flex; */
 }
 .team-heading{
   font-size: 4rem;
@@ -452,6 +453,13 @@ hr{
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+
+}
+
+.upper-column{
+
+}
+.lower-column{
 
 }
 
