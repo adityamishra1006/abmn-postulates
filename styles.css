@@ -800,3 +800,12 @@ footer{
 
 }
 
+.service-content{
+  display: flex;
+  position: relative;
+  left: 140px;
+}
+
+.consultency-content{
+  text-align: left;
+}

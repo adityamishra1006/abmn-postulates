@@ -155,7 +155,7 @@
     font-size: 20px;
     font-weight: 500;
     text-align: center;
-    margin: -21px;
+    margin: -32px;
     padding: 9px;
   }
 
@@ -242,6 +242,8 @@
     padding: 2rem;
     margin: 5rem auto;
     gap: 20px;
+    position: relative;
+    top: -60px;
   }
 
   .about-heading {
@@ -292,7 +294,7 @@
     position: relative;
     background-color: rgb(231, 231, 231);
     height: 63rem;
-    bottom: 52px;
+    bottom: -200px;
     flex-direction: column;
   }
 
@@ -301,6 +303,9 @@
     font-weight: 600;
     font-size: 2rem;
     width: 100%;
+    position: relative;
+    top: 10px;
+    left: 20px;
   }
 
   .whole-content-border-box {
@@ -310,7 +315,7 @@
     position: relative;
     justify-content: center;
     align-items: center;
-    top: 90px; /* Adjust this value as needed */
+    top: 23px;
     gap: 20px;
   }
 
@@ -361,13 +366,23 @@
   }
   
   .contactus-form-container{
-      margin-top:-36px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
+    margin-top: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     }
 
+
+  #copyright{
+    position: relative;
+    right: 67px;
+    bottom: 38rem;
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 5px;
+    }
+  
   #email {}
 
   #contact-email {}
@@ -468,7 +483,7 @@
     height: 800px;
     justify-content: center;
     position: relative;
-    bottom: 53px;
+    bottom: -210px;
   }
 
   .team-heading {
@@ -478,50 +493,147 @@
     font-weight: 500;
     left: 23%;
   }
+  .team-image{
+    position: relative;
+    left: -13px;
+    top: -5px;
+  }
+  .team-content{
+
+  }
 
   .team-card {
-    height: 210px;
-    width: 170px;
+    height: 200px;
+    width: 164px;
     border-radius: 20% 20% 20% 20%;
     position: relative;
-    top: 40px;
+    top: 39px;
     box-shadow: 1px 1px 15px #1f1f1faa;
   }
 
   #member1 {
     position: relative;
-    left: 15px;
+    left: 74px;
   }
 
   #member2 {
     position: relative;
-    left: 195px;
-    top: -170px;
+    left: 88px;
+    top: 40px;
   }
 
   #member3 {
     position: relative;
-    left: 15px;
-    top: -130px;
+    left: -224px;
+    top: 274px;
   }
 
   #member4 {
     position: relative;
-    left: 195px;
-    top: -340px;
+    left: 242px;
+    top: -37px;
   }
 
   #member5 {
     position: relative;
-    left: 20px;
-    top: -19rem;
+    left: -73px;
+    top: 12rem;
+  
   }
 
-  #member6 {
+  #member6{
     position: relative;
-    top: -515px;
-    left: 198px;
+    top: 193px;
+    left: -55px;
   }
+
+  #ayushi{
+    position: relative;
+    left: -17px;
+    font-weight: 500;
+    top: 4px;
+    font-size: 10px;
+  }
+  
+  #CEO{
+    position: relative;
+    font-weight: 500;
+    left: -30px;
+    top: 7px;
+    font-size: 10px;
+  }
+  #bknagar{
+    position: relative;
+    font-weight: 500;
+    left: -19px;
+    top: 5px;
+    font-size: 10px;
+  }
+  #cf{
+    font-weight: 500;
+    position: relative;
+    left: -15px;
+    top: 5px;
+    font-size: 10px;
+  }
+  #data-science{
+    font-weight: 500;
+    position: relative;
+    left: -36px;
+    top: 2px;
+    font-size: 10px;
+  }
+  #vinayak{
+    font-weight: 500;
+    position: relative;
+    left: -11px;
+    top: 2px;
+    font-size: 10px;
+  }
+  #yash{
+    font-weight: 500;
+    position: relative;
+    left: -15px;
+    top: 2px;
+    font-size: 10px;
+  }
+  #gd{
+    font-weight: 500;
+    position: relative;
+    left: -30px;
+    top: 2px;
+    font-size: 10px;
+  }
+  #aman{
+    font-weight: 500;
+    position: relative;
+    left: -21px;
+    top: 4px;
+    font-size: 10px;
+  }
+  #ve{
+    font-weight: 500;
+    position: relative;
+    left: -12px;
+    top: 3px;
+    font-size: 10px;
+  }
+  
+  #aditya{
+    font-weight: 500;
+    position: relative;
+    left: -17px;
+    top: 3px;
+    font-size: 10px;
+  }
+  #dev{
+    font-weight: 500;
+    position: relative;
+    left: -6px;
+    top: 2px;
+    font-size: 10px;
+  }
+  
 
   .team-image {
     display: flex;
@@ -532,6 +644,8 @@
     width: 150px;
     height: 150px;
     border-radius: 40%;
+    position: relative;
+    left: 14px;
   }
 
   .team-content {
@@ -548,3 +662,19 @@
   left: -50px
 }
 }
+.service-content{
+  /* display: flex;
+  position: relative; */
+  left: 16px;
+}
+
+.consultency-content{
+
+}
+
+.details-container ul{
+  margin-left: 0rem;
+  list-style-type: disc;
+  /* color: #ff0000; */
+  
+  }
