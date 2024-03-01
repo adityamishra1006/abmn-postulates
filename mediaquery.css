@@ -282,7 +282,11 @@
   #ins4 {
     width: 0%;
   }
-
+  /* OUR SERVICES */
+  .our-services-plates{
+    display: flex;
+    flex-direction: column;
+  }
   .why-abmn {
     display: flex;
     position: relative;

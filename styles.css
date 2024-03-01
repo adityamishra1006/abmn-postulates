@@ -292,7 +292,7 @@
   padding: 5rem;
   margin: 10rem auto 5rem; /* Add margin-bottom to create separation */
   gap: 30px;
-  height: 100vh;
+  height: 60vh;
 }
 
 .about-heading{
@@ -344,13 +344,51 @@
   position: relative;
   bottom: 150px;
 }
+/* OUR SERVICES */
+.our-services{
+  margin-left: 50px;
+  margin-right: 50px;
+  
+}
+.our-services-plates {
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  display:flex;
+}
 
-
+.our-services h1{
+  font-size: 60px;
+  color:#118098;
+}
+.details-container {
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: #118098 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+}
+.details-container h3{
+  font-size: 30px;
+  font-weight: 500;
+}
+.details-container ul{
+  margin-left: 12rem;
+  list-style-type: disc;
+  /* color: #ff0000; */
+  
+}
+.details-container  h2{
+  font-weight: 400;
+  font-size: 20px;
+}
 /* Why Abmn postulates */
 
 .why-abmn{
   display: flex;
-  position: relative;
+  /* position: relative; */
   background-color:rgb(231,231,231); 
   height: 450px;
   bottom: 50px;
@@ -400,7 +438,7 @@ hr{
 }
 .our-team-container{
   width: 100%;
-  height: 800px;
+  height: 1000px;
   justify-content: center;
 }
 .team-heading{
@@ -409,6 +447,12 @@ hr{
   position: relative;
   font-weight: 500;
   left: 40%;
+}
+.upper-row-members, .lower-row-members {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
 }
 
 .team-card{
@@ -419,8 +463,11 @@ hr{
   top: 40px;
   box-shadow: 1px 1px 10px #1f1f1faa;
 }
+.upper-row-members{
+  margin-bottom: 7rem;
+}
 
-#member1{
+/* #member1{
   position: relative;
   left: 286px;
 }
@@ -448,9 +495,9 @@ hr{
 }
 #member6{
   position: relative;
-  top: -59rem;
-  left: 70rem;
-}
+  top: -59rem; */
+  /* left: 70rem;
+} */
 .madam{
   width: 200px;
   height: 200px;
@@ -554,8 +601,9 @@ hr{
 .contactus-form-container {
   width: 100%;
   background-color: rgb(231, 231, 231);
-  position: relative;
-  top: 2rem; /* This is where the fixed positioning is applied */
+  /* position: relative; */
+  /* top: 2rem; This is where the fixed positioning is applied */
+  
 }
 
 
